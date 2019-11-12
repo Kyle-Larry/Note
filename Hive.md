@@ -1,10 +1,11 @@
 ### 一、Hive基本概念
 1、什么是Hive
 
-    Hive是基于Hadoop的一个数据仓库工具，可以将结构化的数据文件映射为一张表，并提供类SQL查询功能。本质是将HQL/SQL转换为MapReduce程序。
-    1）Hive处理的数据存储在HDFS
-    2）Hive分析数据底层的实现是MapReduce
-    3)执行程序运行在Yarn上
+    Hive是基于Hadoop的一个数据仓库工具，可以将结构化的数据文件映射为一张表，并提供类SQL查询功能。
+    本质是将HQL/SQL转换为MapReduce程序。
+        1）Hive处理的数据存储在HDFS
+        2）Hive分析数据底层的实现是MapReduce
+        3)执行程序运行在Yarn上
 
 2、Hive的优缺点
 
