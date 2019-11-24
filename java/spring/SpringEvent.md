@@ -24,3 +24,5 @@
     ApplicationEventPublisher eventPublisher;
             
     eventPublisher.publishEvent(new MyEvent(this,"onAdd"));
+
+详情参见：https://blog.csdn.net/juoduomade/article/details/84593550
